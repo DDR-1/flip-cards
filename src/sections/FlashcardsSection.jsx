@@ -7,6 +7,8 @@ const FlashcardsSection = ({ folders }) => {
       {Object.keys(folders).map(folder => (
         <Link key={folder} to={`/${folder}`}><button>{folder}</button></Link>
       ))}
+      
+      <div>Please Select a folder</div>
     </div>
   );
 };

@@ -1,0 +1,50 @@
+.profile-section {
+    padding: 2rem;
+  }
+  
+  .profile-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-picture {
+    margin-right: 2rem;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .profile-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .profile-actions button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  
+  .profile-actions button:hover {
+    background-color: #0056b3;
+  }

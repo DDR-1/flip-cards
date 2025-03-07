@@ -1,0 +1,35 @@
+.top-bar {
+  width: 98%;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.top-bar .title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-bar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.top-bar-links a:hover {
+  text-decoration: underline;
+}
